@@ -1,2 +1,2 @@
 # hazel
-A clone of the Hazel Engine by that was designed by Yan Chernocov.
+A clone of the Hazel Engine that was designed by Yan Chernocov.
