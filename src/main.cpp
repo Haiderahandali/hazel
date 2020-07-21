@@ -1,8 +1,7 @@
-#include<iostream>
+#include "Library.h"
 
 int main(void)
 {
-    std::cout<<" Hello world!" ;
-
-    return 0;
+    Hazel::Print();
+    
 }

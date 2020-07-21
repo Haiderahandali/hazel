@@ -7,6 +7,11 @@ set (OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE}/${PROJECT_NAME
 #Creating the output drectory so it won't generate an error of not finding such Directory
 file(MAKE_DIRECTORY ${OUTPUT_DIRECTORY})
 
+#setting the Standard of C++17
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+#including the header directory
 include_directories(include)
 
 #Making the output of the Dynamic Lib going to the output directory

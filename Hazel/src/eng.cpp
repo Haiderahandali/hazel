@@ -1,9 +1,10 @@
-#include <iostream>
+#include <stdio.h>
+#include "test.h"
 
-int main()
-
+namespace Hazel 
 {
-    int x = 0;
-    std::cout<<" Print me " <<  x << "\n";
-    return 0;
+    void Print()
+    {
+        printf ("HELLO WORLD!\n");
+    }
 }
