@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.9)
+project(Hazel)
+set (OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE}/${PROJECT_NAME})
+file(MAKE_DIRECTORY ${OUTPUT_DIRECTORY})
+
+
+set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY})
+
+add_library(engine SHARED src/eng.cpp)
+
+
+
+
