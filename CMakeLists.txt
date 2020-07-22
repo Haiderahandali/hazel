@@ -19,7 +19,7 @@ set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY})
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY})
 
 #creating the Sandbox (Game) 
-add_executable(Sandbox MACOSX_BUNDLE src/main.cpp)
+add_executable(Sandbox src/main.cpp)
 
 #adding our game engine to the game and link it
 add_subdirectory(Hazel)

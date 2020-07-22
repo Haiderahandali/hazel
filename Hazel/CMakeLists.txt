@@ -12,11 +12,11 @@ file(MAKE_DIRECTORY ${OUTPUT_DIRECTORY})
 set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY})
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY})
 
-include_directories(include)
+
 
 #creating the Shared Lib
 add_library(engine SHARED src/eng.cpp)
 
-
-
+#including PUBLIC(can be used outside the lib as well) directories for the engine
+target_include_directories(engine PUBLIC include)
 
