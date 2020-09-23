@@ -1,5 +1,7 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
+
+
 namespace Hazel
 {
     class Application
@@ -13,6 +15,10 @@ namespace Hazel
     void Run();
     };
 
+    //To be defined in the Client
+    Application* CreateApplication();
+    
 }
+
 
 #endif

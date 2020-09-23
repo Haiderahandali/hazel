@@ -2,4 +2,11 @@
 #define LIBRARY_H
 #include "Application.h"
 
+
+
+//--------------------------Entry Point------------------//
+#include "EntryPoint.h"
+//-------------------------------------------------------// 
+
+
 #endif

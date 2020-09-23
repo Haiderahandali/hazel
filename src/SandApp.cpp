@@ -1,10 +1,15 @@
 #include "Library.h"
 
-int main()
-
+class Sandbox : public Hazel::Application
 {
-    auto Sand = new Hazel::Application;
-    Sand->Run();
-    return 0;
-}
+private:
+    /* data */
+public:
+    Sandbox(/* args */);
+    ~Sandbox();
+};
 
+Hazel::Application *Hazel::CreateApplication()
+{
+    return new Sandbox();
+}
