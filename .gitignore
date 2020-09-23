@@ -1,8 +1,14 @@
+#------Directories--------#
 /build
 /reademe
-.vscode
 /bin
 /Hazel/build
 /Hazel/.vscode
+.vscode
+
+#-------Files------------#
+
+.Dr_Store
+
 
 
